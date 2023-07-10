@@ -1,3 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.heading{
+    color: grey;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.main-page h2{
+    font-size: 72px;
+    min-height: 500px;
+  
+}
+.navbar a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+navbar a{
+    display: flex;
+}
+
 img{
     width: 500px;
     height: auto;
