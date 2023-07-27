@@ -46,10 +46,17 @@ h1 {
 .logo {
   flex: 1;
 }
+.mainPage{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.mainArticle{
+  display: flex;
+  flex-direction: column;
+}
 img {
-  width: 1366px;
+  width: 500px;
   height: auto;
-  border: none;
 }
 .footer {
   color: gray;
