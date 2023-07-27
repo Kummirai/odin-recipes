@@ -1,33 +1,34 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   width: 1366px;
   height: auto;
+  font-family: 'Roboto', sans-serif;
 }
-.container{
+.container {
   display: flex;
   flex-direction: column;
 }
-.heading{
+.heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
-.navbar{
- align-content: flex-end;
- flex: 1;
+.navbar {
+  align-content: flex-end;
+  flex: 1;
 }
-.navbar ul{
+.navbar ul {
   display: flex;
 }
-.navbar li{
+.navbar li {
   list-style-type: none;
 }
-.navbar a{
+.navbar a {
   text-decoration: none;
   margin-right: 50px;
   color: gray;
@@ -43,40 +44,40 @@ h1 {
 .logo {
   flex: 1;
 }
-img{
+img {
   width: 1366px;
   height: auto;
   border: none;
 }
-.footer{
+.footer {
   color: gray;
   text-align: center;
   margin-top: 10px;
   font-size: 11px;
 }
 @media (max-width: 480px) {
-  .heading{
+  .heading {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: black;
   }
-  .logo{
+  .logo {
     margin-bottom: 10px;
     height: 200px;
     flex: 1;
   }
   .logo h1 {
-    font-size: 96px;
+    font-size: 120px;
     font-weight: 900;
   }
-  .navbar{
+  .navbar {
     height: 100px;
   }
-  .navbar a{
-    font-size: 32px;
+  .navbar a {
+    font-size: 48px;
   }
-  img{
+  img {
     width: 100%;
     height: auto;
   }
@@ -85,38 +86,61 @@ img{
     flex-direction: column;
     margin: 20px auto;
   }
-  .mainText-1{
+  .mainText-1 {
     height: 300px;
     width: 100%;
     font-size: 120px;
     font-weight: 900;
-    color: grey ;
+    color: #3A445D;
     text-align: center;
   }
-  .mainText-2{
+  .mainText-2 {
     font-size: 32px;
     font-weight: 400;
     margin: 20px 50px 50px 20px;
     text-align: center;
   }
-  .textPara-main{
-    font-size: 32px;
-    font-weight: 300;
+  .textPara-main {
+    font-size: 54px;
+    font-weight:150;
     margin: 10px 150px;
     text-align: center;
+    color: #3D3A4B;
   }
-    .png-images{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+  .subheading{
+    font-size: 72px;
+    color: orange;
+    font-weight: 450;
+  }
+  .png-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+    color: grey;
+    padding: 30px;
+    height: 400px;
+    text-align: center;
+  }
+  .pancakes-img-txt p, .lasagna-img-txt p, .braisedLamb-img-txt p {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 350;
+    margin: 10px 150px;
+    text-align: center;
+    margin-top: 120px;
+  }
+  .braisedLamb-section, .pancakes-section, .lasagna-section {
+    border: 1px solid grey;
+    margin: 20px 20px;
+    border-radius: 15px;
+    text-align: center;
 
   }
-  .footer{
-    width: 100%;
-    height: 400px;
-    background-color: black ;
-  }
 }
- 
