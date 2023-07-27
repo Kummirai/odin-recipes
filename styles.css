@@ -54,4 +54,54 @@ img{
   margin-top: 10px;
   font-size: 11px;
 }
-@media 
+@media (max-width: 480px) {
+  .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+  }
+  .logo{
+    margin-bottom: 10px;
+    height: 200px;
+    flex: 1;
+  }
+  .logo h1 {
+    font-size: 96px;
+    font-weight: 900;
+  }
+  .navbar{
+    height: 100px;
+  }
+  .navbar a{
+    font-size: 32px;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+  .mainArticle {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainText-1{
+    height: 300px;
+    width: 100%;
+    font-size: 120px;
+    font-weight: 900;
+    color: grey ;
+    text-align: center;
+  }
+  .mainText-2{
+    font-size: 32px;
+    font-weight: 400;
+    margin: 20px 50px 50px 20px;
+    text-align: center;
+  }
+  .footer{
+    width: 100%;
+    height: 400px;
+    background-color: black ;
+  }
+}
+ 
