@@ -104,11 +104,14 @@ img{
     font-weight: 300;
     margin: 10px 150px;
     text-align: center;
-    .png-images .lasagna{
-      width 100%
-      height: auto;
-      margin: 0 30px;
+  }
+    .png-images{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
+
   }
   .footer{
     width: 100%;
