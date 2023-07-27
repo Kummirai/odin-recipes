@@ -55,7 +55,7 @@ h1 {
   flex-direction: column;
 }
 img {
-  width: 500px;
+  width: 100%;
   height: auto;
 }
 .footer {
@@ -64,7 +64,7 @@ img {
   margin-top: 10px;
   font-size: 11px;
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .heading {
     display: flex;
     flex-direction: column;
@@ -89,6 +89,10 @@ img {
   img {
     width: 100%;
     height: auto;
+  }
+  .mainPage{
+    display: flex;
+    flex-direction : column;
   }
   .mainArticle {
     display: flex;
