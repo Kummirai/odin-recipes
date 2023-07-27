@@ -17,6 +17,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  background-color: black;
+  color: grey;
 }
 .navbar {
   align-content: flex-end;
@@ -55,7 +57,7 @@ img {
   margin-top: 10px;
   font-size: 11px;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .heading {
     display: flex;
     flex-direction: column;
@@ -102,12 +104,12 @@ img {
   }
   .textPara-main {
     font-size: 54px;
-    font-weight:150;
+    font-weight: 150;
     margin: 10px 150px;
     text-align: center;
     color: #3D3A4B;
   }
-  .subheading{
+  .subheading {
     font-size: 72px;
     color: orange;
     font-weight: 450;
@@ -121,7 +123,7 @@ img {
 
   .footer {
     width: 100%;
-    font-size: 20px;
+    font-size: 36px;
     background-color: black;
     color: grey;
     padding: 30px;
