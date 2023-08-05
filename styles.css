@@ -1,159 +1,70 @@
-* {
-  margin: 0;
+@media (Max-width: 480px){
+*{
+  margin : 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  width: 1366px;
-  height: auto;
-  font-family: 'Roboto', sans-serif;
-}
-.container {
+.container{
   display: flex;
   flex-direction: column;
 }
-.heading {
+.heading{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  padding: 20px;
+  justify-content: center ;
+  min-height: 100px;
   background-color: black;
-  color: grey;
 }
-.navbar {
-  align-content: flex-end;
-  flex: 1;
-}
-.navbar ul {
-  display: flex;
-}
-.navbar li {
-  list-style-type: none;
-}
-.navbar a {
-  text-decoration: none;
-  margin-right: 50px;
-  color: gray;
-  font-size: 18px;
-  font-weight: 500;
-}
-h1 {
-  color: grey;
+.heading h1{
+  color: #708090;
   font-weight: 700;
-  font-family: sans-serif;
-  font-size: 50px;
+  font-size: 48px;
 }
-.logo {
-  flex: 1;
-}
-.mainPage{
+.heading ul{
   display: flex;
-  flex-direction: row-reverse;
 }
+.heading li{
+  list-style-type: none;
+  font-size: 18px;
+}
+.heading a{
+  text-decoration: none;
+  margin: 10px;
+  color: #708090;
+}
+.container img{
+  width: 100%;
+  height: auto;
+  }
 .mainArticle{
   display: flex;
   flex-direction: column;
 }
-img {
-  width: 100%;
-  height: auto;
-}
-.footer {
-  color: gray;
-  text-align: center;
-  margin-top: 10px;
-  font-size: 11px;
-}
-@media (max-width: 480px) {
-  .heading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
+.mainText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  font-size: 24px;
+  font-weight: 700;
   }
-  .logo {
-    margin-bottom: 10px;
-    height: 200px;
-    flex: 1;
+  .mainText-1{
+    color: #4682B4;
   }
-  .logo h1 {
-    font-size: 120px;
-    font-weight: 900;
-  }
-  .navbar {
-    height: 100px;
-  }
-  .navbar a {
-    font-size: 48px;
-  }
-  img {
-    width: 100%;
-    height: auto;
-  }
-  .mainPage{
-    display: flex;
-    flex-direction : column;
-  }
-  .mainArticle {
-    display: flex;
-    flex-direction: column;
-    margin: 20px auto;
-  }
-  .mainText-1 {
-    height: 300px;
-    width: 100%;
-    font-size: 120px;
-    font-weight: 900;
-    color: #3A445D;
-    text-align: center;
-  }
-  .mainText-2 {
-    font-size: 32px;
-    font-weight: 400;
-    margin: 20px 50px 50px 20px;
-    text-align: center;
-  }
-  .textPara-main {
-    font-size: 54px;
-    font-weight: 150;
-    margin: 10px 150px;
-    text-align: center;
-    color: #3D3A4B;
-  }
-  .subheading {
-    font-size: 72px;
-    color: orange;
-    font-weight: 450;
-  }
-  .png-images {
+  .mainText-2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
-  .footer {
-    width: 100%;
-    font-size: 36px;
-    background-color: black;
-    color: grey;
-    padding: 30px;
-    height: 400px;
-    text-align: center;
+  .mainText-2 .subheading{
+    color: orange;
+    font-weight: 300;
   }
-  .pancakes-img-txt p, .lasagna-img-txt p, .braisedLamb-img-txt p {
-    text-align: center;
-    font-size: 42px;
-    font-weight: 350;
-    margin: 10px 150px;
-    text-align: center;
-    margin-top: 120px;
-  }
-  .braisedLamb-section, .pancakes-section, .lasagna-section {
-    border: 1px solid grey;
-    margin: 20px 20px;
-    border-radius: 15px;
-    text-align: center;
-
+  .textPara-main{
+    margin: 10px;
+    font-size: 16px;
   }
 }
