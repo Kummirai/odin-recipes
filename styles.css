@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .container{
-  display: flex;
+  font-family: 'Roboto', sans-serif;
   flex-direction: column;
   font-family: roboto;
 }
@@ -40,15 +40,39 @@
 
 img
 {
-  height: 400px;
-  width: auto;
-  border-radius: 200px;
+  height: auto;
+  width: 100%;
+}
+
+.image img{
+  margin:40px 0 0 auto;
+  width: 500px;
+  height: auto;
+  border-radius: 250px;
+}
+
+.lasagna-section img, .pancakes-section img, .braisedLamb-section img{
+  width: 500px;
+  height: auto;
+}
+.mainText-1{
+  font-size: 72px;
+  margin: 0 0 20px 0;
+  line-height: 1em;
+  color: #5D6D7E;
+}
+.mainText-2{
+  text-align: center;
+  margin: 30px 0 30px 0;
+  color: #F39C12;
+  font-size: 24px;
+  font-weight: 100;
 }
 .mainPage{
   display: flex;
   min-height: 400px;
   justify-content: space-evenly;
-  align-items: center
+  align-items: center;
 }
 .mainArticle{
   width: 50%;
@@ -56,6 +80,36 @@ img
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center:
+}
+/*style pancakes.html*/
+.pancakes-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  /*background-image: url('images/panCakesGrapes.jpg');*/
+  /*height:540px;*/
+}
+.myContent{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+ /* height:550px;*/
+  margin: 10px; 
+
+}
+.ingredients li{
+  list-style-type: none;
+  margin: 4px 0 0 20px;
+  font-family: roboto, sans-serif;
+
+}
+.directions li{
+  list-style-type: none;
+  margin: 4px 0 0 20px;
+  
 }
 
 
@@ -71,6 +125,7 @@ img
   box-sizing: border-box;
 }
 .container{
+  font-family: verdana , roboto, sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -166,5 +221,39 @@ img{
   p{
   padding: 5px 15px;
     text-align: center;
+  }
+  /*pancakes.html styling*/
+  .myContent{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  .ingredients{
+    margin: 10px 0 0 10px;
+  }
+  .ingredients li{
+    list-style-type: circle;
+    margin: 5px 0 0 40px;
+  }
+  .ingredients h2{
+    margin: 20px
+    font-size: 18px;
+    color:#36454F
+  }
+  .ingredients p{
+    text-align: center;
+  }
+  .directions{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .directions h2{
+    font-size: 20px;
+    color: #36454F;
+    font-family: verdana, roboto, sans-serif;
+  }
+  .directions li{
+    margin: 5px 0 0 40px;
   }
 }
