@@ -10,20 +10,22 @@
 }
 .heading{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  background-color: black;
-  min-height: 100px;
+  background-color: rgba(0, 0, 0, 0.8);
+  min-height: 80px;
 }
 .navbar ul{
   display: flex;
+  margin: 0 90px 0 0 ;
 }
 .navbar a{
   text-decoration: none;
   padding: 10px;
   color: lavender;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: normal;
+  font-family: sans-serif;
 }
 
 .navbar a:hover{
@@ -33,9 +35,10 @@
   list-style-type: none;
 }
 .logo h1{
-  color: gray;
-  font-weight: 500;
-  font-size: 42px;
+  color: slategray;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 0 0 0 20px;
 }
 
 img
@@ -46,14 +49,17 @@ img
 
 .image img{
   margin:40px 0 0 auto;
-  width: 500px;
+  width: 400px;
   height: auto;
-  border-radius: 250px;
+  border-radius: 20px 30px 200px 50px;
 }
 
 .lasagna-section img, .pancakes-section img, .braisedLamb-section img{
-  width: 500px;
+  width: 400px;
   height: auto;
+}
+.lasagna-section, .pancakes-section, .braisedLamb-section{
+  width: 25%;
 }
 .mainText-1{
   font-size: 72px;
@@ -89,29 +95,61 @@ img
   align-items: center;
   width: 100%;
   /*background-image: url('images/panCakesGrapes.jpg');*/
-  /*height:540px;*/
+  height: auto;
 }
 .myContent{
   width: 100%;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
  /* height:550px;*/
-  margin: 10px; 
+  min-height: 300px;
+/* From https://css.glass */
+background: rgba(0, 0, 0, 0.18);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: rgba(225, 17, 46, 1);
+}
 
+.ingredients {
+  margin: 0 0 0 200px;
 }
 .ingredients li{
   list-style-type: none;
-  margin: 4px 0 0 20px;
+  margin: 4px 10px 0 20px;
   font-family: roboto, sans-serif;
+  width: 50%;
 
 }
 .directions li{
   list-style-type: none;
   margin: 4px 0 0 20px;
-  
+  width: 50%;
 }
-
+.png-images{
+  margin: 50px 10px 50px 10px;
+  display: flex;
+  justify-content: space-evenly;
+	/* From https://css.glass */
+	background: rgba(0, 0, 0, 0.8);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: rgba(225, 17, 46, 1);
+  padding: 20px;
+  color: white;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+.footer{
+  min-height: 20px;
+  background-color: black;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  color: whitesmoke;
+}
 
 
 
