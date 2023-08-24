@@ -143,7 +143,10 @@ border: rgba(225, 17, 46, 1);
   font-family: sans-serif;
 }
 .footer{
-  min-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 50px;
   background-color: black;
   font-size: 12px;
   text-align: center;
