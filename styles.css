@@ -51,7 +51,6 @@ img
   margin:40px 0 0 auto;
   width: 400px;
   height: auto;
-  border-radius: 20px 30px 200px 50px;
 }
 
 .lasagna-section img, .pancakes-section img, .braisedLamb-section img{
@@ -153,11 +152,6 @@ border: rgba(225, 17, 46, 1);
   width: 100%;
   color: whitesmoke;
 }
-
-
-
-
-
 
 @media screen and (max-width: 768px){
 *{
